@@ -10,5 +10,9 @@ public class Test {
             person[i] = new Employee();
         }
 
-    }
+        for (int i = 0; i < quan; i++) {
+            if (person[i].age > 40) {
+                person[i].outputEmployee();
+            }
+        } }
 }
