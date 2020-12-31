@@ -14,5 +14,7 @@ public class Test {
             if (person[i].age > 40) {
                 person[i].outputEmployee();
             }
-        } }
+        }
+    }
+
 }

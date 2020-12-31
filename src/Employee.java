@@ -24,15 +24,16 @@ public class Employee {
         System.out.println("Введите зарплату сотрудника: ");
         this.salary = scan.nextInt();
     }
-    public void outputEmployee()
-    {
-        System.out.println("Имя: "+this.name);
-        System.out.println("Возраст: "+this.age);
-        System.out.println("Должность: "+this.position);
-        System.out.println("Почта: "+this.eMail);
-        System.out.println("Телефон: "+this.phone);
-        System.out.println("Зарплата: "+this.salary);
-        
+
+    public void outputEmployee() {
+        System.out.println("Имя: " + this.name);
+        System.out.println("Возраст: " + this.age);
+        System.out.println("Должность: " + this.position);
+        System.out.println("Почта: " + this.eMail);
+        System.out.println("Телефон: " + this.phone);
+        System.out.println("Зарплата: " + this.salary);
     }
+
 }
+
 
