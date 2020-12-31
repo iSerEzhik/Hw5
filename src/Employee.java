@@ -9,7 +9,7 @@ public class Employee {
     int age;
     Scanner scan = new Scanner(System.in);
 
-    public Employee() {
+    public Employee() {//Попробовал с вводом с клавиатуры
         System.out.println("Введите ФИО сотрудника: ");
         this.name = scan.nextLine();
         System.out.println("Введите возраст сотрудника: ");
